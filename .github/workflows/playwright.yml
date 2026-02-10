@@ -31,7 +31,7 @@ jobs:
       run: npx playwright test
 
     - name: Parse Allure json
-      run: node scripts/parseAllureJson.ts
+      run: node scripts/parseAllureResults.ts
     - name: Deploy to github pages
       if: always()
       uses: peaceiris/actions-gh-pages@v3
