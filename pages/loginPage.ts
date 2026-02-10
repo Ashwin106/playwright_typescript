@@ -12,8 +12,7 @@ export class LoginPage {
         this.usernameInput = this.page.getByPlaceholder('Username');
         this.passwordInput = this.page.getByPlaceholder('Password');
         this.loginButton = this.page.getByRole('button', { name:" Login " });
-       //this.passwordInput='//input[@name="password"]'
-       // this.loginButton='//button[@type="submit"]';
+       
     }
 
     async login(username:string,password:string){
