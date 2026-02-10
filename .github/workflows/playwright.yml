@@ -30,10 +30,8 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
 
-    - name: Generate Allure report
-      run: |
-        npm install -g allure-commandline --save-dev
-        allure generate allure-results --clean -o allure-report
+    - name: Parse Allure json
+      run: node scripts/parseAllureJson.js
     - name: Deploy to github pages
       if: always()
       uses: peaceiris/actions-gh-pages@v3
