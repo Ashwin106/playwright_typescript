@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","5230","TC_login_03","Chrome","2026-02-10","passed","2026-02-10","LOGIN TESTS","login.spec.ts","",""
-"","4713","TC_login_02","Chrome","2026-02-10","passed","2026-02-10","LOGIN TESTS","login.spec.ts","",""
-"","10751","TC_login_01","Chrome","2026-02-10","passed","2026-02-10","LOGIN TESTS","login.spec.ts","",""
