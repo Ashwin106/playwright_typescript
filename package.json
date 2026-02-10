@@ -11,9 +11,14 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^24.9.1",
-    "allure-playwright": "^3.4.3"
+    "allure-playwright": "^3.4.3",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
   }
+  
+   
+
 }
