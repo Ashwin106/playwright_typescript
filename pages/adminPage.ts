@@ -3,7 +3,7 @@ import {expect,Page,Locator} from '@playwright/test';
 //import { expect } from "allure-playwright";
 export class AdminPage extends BasePage{ 
         readonly adminButton: Locator;
-        re
+        readonly addButton:Locator;
 
         
 

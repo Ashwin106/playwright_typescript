@@ -16,7 +16,7 @@ export class LoginPage {
        // this.loginButton='//button[@type="submit"]';
     }
 
-    async loginToApp(username:string,password:string){
+    async login(username:string,password:string){
         
          //await this.waitForPageLoad();
          await this.usernameInput.fill(username);
