@@ -1,8 +1,235 @@
 [
   {
-    "name": "TC_login_02",
+    "name": "TC_login_01",
+    "status": "failed",
+    "duration": 93631,
+    "steps": [
+      {
+        "status": "failed",
+        "statusDetails": {
+          "message": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\n",
+          "trace": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\n\n    at /home/runner/work/playwright_typescript/playwright_typescript/tests/login.spec.ts:7:16"
+        },
+        "stage": "finished",
+        "steps": [
+          {
+            "status": "failed",
+            "statusDetails": {
+              "message": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\n",
+              "trace": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\n\n    at /home/runner/work/playwright_typescript/playwright_typescript/tests/login.spec.ts:7:16"
+            },
+            "stage": "finished",
+            "steps": [
+              {
+                "status": "passed",
+                "statusDetails": {},
+                "stage": "finished",
+                "steps": [
+                  {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "name": "Launch browser",
+                    "start": 1770717392734,
+                    "uuid": "621f76e5-6f4d-423d-bbe9-66d198ac5bcf",
+                    "stop": 1770717397953
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "name": "Fixture \"browser\"",
+                "start": 1770717392731,
+                "uuid": "c9cfa78a-507e-4ec2-9a48-96a95bac2ada",
+                "stop": 1770717397954
+              },
+              {
+                "status": "passed",
+                "statusDetails": {},
+                "stage": "finished",
+                "steps": [
+                  {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "name": "Create context",
+                    "start": 1770717397958,
+                    "uuid": "cc5310a7-87eb-40f8-bbc0-4100d1634e4c",
+                    "stop": 1770717398192
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "name": "Fixture \"context\"",
+                "start": 1770717397956,
+                "uuid": "49c47828-b181-4d5f-8d33-7f09a6ce1065",
+                "stop": 1770717398196
+              },
+              {
+                "status": "passed",
+                "statusDetails": {},
+                "stage": "finished",
+                "steps": [
+                  {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "name": "Create page",
+                    "start": 1770717398199,
+                    "uuid": "85936502-5e5f-47be-aeca-a22a7f1f698c",
+                    "stop": 1770717400402
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "name": "Fixture \"page\"",
+                "start": 1770717398197,
+                "uuid": "14c1a228-acf7-44eb-b422-027b1d7b20ec",
+                "stop": 1770717400403
+              },
+              {
+                "status": "failed",
+                "statusDetails": {
+                  "message": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\n",
+                  "trace": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\n\n    at /home/runner/work/playwright_typescript/playwright_typescript/tests/login.spec.ts:7:16"
+                },
+                "stage": "finished",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "name": "Navigate to \"/\"",
+                "start": 1770717400405,
+                "uuid": "99720e49-d796-4626-96c8-d2048b29076b",
+                "stop": 1770717485162
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "name": "Invoke URL",
+            "start": 1770717392719,
+            "uuid": "d344796c-6536-4984-8abf-f2e184c70a64",
+            "stop": 1770717485163
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "name": "Before Hooks",
+        "start": 1770717392718,
+        "uuid": "4e89d149-4fcb-44ca-be4d-81077714d4d8",
+        "stop": 1770717485163
+      },
+      {
+        "statusDetails": {},
+        "stage": "finished",
+        "steps": [],
+        "attachments": [
+          {
+            "name": "video",
+            "source": "2ccf3301-27f5-44ac-973c-776d725831b9-attachment.webm",
+            "type": "video/webm"
+          }
+        ],
+        "parameters": [],
+        "start": 1770717491747,
+        "name": "video",
+        "stop": 1770717491747
+      },
+      {
+        "statusDetails": {},
+        "stage": "finished",
+        "steps": [],
+        "attachments": [
+          {
+            "name": "error-context",
+            "source": "8f2fc926-128d-42a8-bdfc-1730695a1f80-attachment.md",
+            "type": "text/markdown"
+          }
+        ],
+        "parameters": [],
+        "start": 1770717491749,
+        "name": "error-context",
+        "stop": 1770717491749
+      },
+      {
+        "statusDetails": {},
+        "stage": "finished",
+        "steps": [],
+        "attachments": [
+          {
+            "name": "trace",
+            "source": "dfc79006-62f4-413e-adcc-0f3170eb5dc2-attachment.zip",
+            "type": "application/vnd.allure.playwright-trace"
+          }
+        ],
+        "parameters": [],
+        "start": 1770717491750,
+        "name": "trace",
+        "stop": 1770717491750
+      },
+      {
+        "status": "passed",
+        "statusDetails": {},
+        "stage": "finished",
+        "steps": [
+          {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "name": "Fixture \"page\"",
+            "start": 1770717485359,
+            "uuid": "ac8fee6b-ea19-418b-9cb1-0fdffe1ae8d9",
+            "stop": 1770717485359
+          },
+          {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [
+              {
+                "status": "passed",
+                "statusDetails": {},
+                "stage": "finished",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "name": "Close context",
+                "start": 1770717485516,
+                "uuid": "4c687452-281c-4d69-bb5d-99e3de98799b",
+                "stop": 1770717491586
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "name": "Fixture \"context\"",
+            "start": 1770717485359,
+            "uuid": "73c4c67d-a8f7-459e-89b3-0bb9d019cf60",
+            "stop": 1770717491588
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "name": "After Hooks",
+        "start": 1770717485164,
+        "uuid": "c697700f-96b7-4c7c-b528-00f1fb6ef6aa",
+        "stop": 1770717491596
+      }
+    ]
+  },
+  {
+    "name": "TC_login_03",
     "status": "passed",
-    "duration": 3804,
+    "duration": 23282,
     "steps": [
       {
         "status": "passed",
@@ -27,17 +254,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Create context",
-                    "start": 1770713606536,
-                    "uuid": "8fb3e4ab-ba17-419a-9f71-1ea05bc13a9b",
-                    "stop": 1770713606540
+                    "start": 1770717823616,
+                    "uuid": "396ed672-e2ab-4589-a237-3ac3fda6ca58",
+                    "stop": 1770717823620
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"context\"",
-                "start": 1770713606535,
-                "uuid": "c29a5f74-957b-48f2-bc87-58ea2fade355",
-                "stop": 1770713606542
+                "start": 1770717823615,
+                "uuid": "b945be8b-1ae4-409b-88a1-5f11043a6064",
+                "stop": 1770717823621
               },
               {
                 "status": "passed",
@@ -52,17 +279,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Create page",
-                    "start": 1770713606543,
-                    "uuid": "54d9f7d6-2b30-4fa0-8ee9-ba8f2419e4b7",
-                    "stop": 1770713606594
+                    "start": 1770717823622,
+                    "uuid": "3e293aba-ed05-4a57-8175-c99bee142bf7",
+                    "stop": 1770717823670
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"page\"",
-                "start": 1770713606542,
-                "uuid": "9a20bf84-954f-48b2-82a4-86d2dc295594",
-                "stop": 1770713606594
+                "start": 1770717823621,
+                "uuid": "7ff229a0-4758-453f-933c-0608fa7f0625",
+                "stop": 1770717823670
               },
               {
                 "status": "passed",
@@ -72,25 +299,25 @@
                 "attachments": [],
                 "parameters": [],
                 "name": "Navigate to \"/\"",
-                "start": 1770713606595,
-                "uuid": "a948ce8a-2b63-4073-84a7-6c4c3325f775",
-                "stop": 1770713609269
+                "start": 1770717823671,
+                "uuid": "2de6c0ab-8895-4996-ad7c-1bf1fce99196",
+                "stop": 1770717832708
               }
             ],
             "attachments": [],
             "parameters": [],
             "name": "Invoke URL",
-            "start": 1770713606529,
-            "uuid": "6d55ea63-3596-43c9-9ecb-219066f5dfc8",
-            "stop": 1770713609270
+            "start": 1770717823609,
+            "uuid": "536cca1b-f235-4ea2-b9ae-31652fd90c60",
+            "stop": 1770717832708
           }
         ],
         "attachments": [],
         "parameters": [],
         "name": "Before Hooks",
-        "start": 1770713606528,
-        "uuid": "b7d1c7af-1b25-4361-85c1-207cfc1edcd1",
-        "stop": 1770713609270
+        "start": 1770717823608,
+        "uuid": "ad70fbe4-4807-4e12-8fb9-b301b291c59b",
+        "stop": 1770717832708
       },
       {
         "status": "passed",
@@ -99,10 +326,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713609281,
-        "name": "Fill \"User\" getByPlaceholder('Username')",
-        "uuid": "22d62f2b-0dbf-4bbc-8c57-dadf1e27d414",
-        "stop": 1770713610100
+        "start": 1770717832716,
+        "name": "Fill \"Admin\" getByPlaceholder('Username')",
+        "uuid": "ba83cfe2-8f64-41bb-960a-c2519e0a5e25",
+        "stop": 1770717841572
       },
       {
         "status": "passed",
@@ -111,10 +338,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713610101,
-        "name": "Fill \"Admin123\" getByPlaceholder('Password')",
-        "uuid": "1bca8073-e433-4f04-8b74-c056730e612c",
-        "stop": 1770713610112
+        "start": 1770717841573,
+        "name": "Fill \"User123\" getByPlaceholder('Password')",
+        "uuid": "2f3034db-42e8-4c7c-978d-7f4217714f1e",
+        "stop": 1770717841587
       },
       {
         "status": "passed",
@@ -123,10 +350,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713610113,
+        "start": 1770717841589,
         "name": "Click getByRole('button', { name: ' Login ' })",
-        "uuid": "1577366c-20f6-4359-9e9d-b45d4f16a5ba",
-        "stop": 1770713610154
+        "uuid": "cbaf9c49-d30b-4a82-9e54-ca5082bd43ad",
+        "stop": 1770717841636
       },
       {
         "status": "passed",
@@ -141,9 +368,9 @@
             "attachments": [],
             "parameters": [],
             "name": "Fixture \"page\"",
-            "start": 1770713610155,
-            "uuid": "b0d27d0a-9f5d-42ed-8cbd-813e32e7a6c4",
-            "stop": 1770713610155
+            "start": 1770717841637,
+            "uuid": "6ffcf216-bc39-44ec-9d66-9123e9188933",
+            "stop": 1770717841637
           },
           {
             "status": "passed",
@@ -158,32 +385,32 @@
                 "attachments": [],
                 "parameters": [],
                 "name": "Close context",
-                "start": 1770713610251,
-                "uuid": "b4c6041d-ba09-43dd-aad4-5a6d41d7d1b2",
-                "stop": 1770713610340
+                "start": 1770717846643,
+                "uuid": "61873cc0-6782-45e7-9245-999fba8d639f",
+                "stop": 1770717846898
               }
             ],
             "attachments": [],
             "parameters": [],
             "name": "Fixture \"context\"",
-            "start": 1770713610155,
-            "uuid": "2198ad06-0fa1-42dc-900f-111375bbcf98",
-            "stop": 1770713610340
+            "start": 1770717841638,
+            "uuid": "5a00aa58-38ef-43bb-85c0-10d0c07ad5d6",
+            "stop": 1770717846898
           }
         ],
         "attachments": [],
         "parameters": [],
         "name": "After Hooks",
-        "start": 1770713610155,
-        "uuid": "038a4807-ba4d-49cd-b6fc-025d2a6684b4",
-        "stop": 1770713610346
+        "start": 1770717841637,
+        "uuid": "d0981ab2-219d-418f-a02e-b30382cda6d0",
+        "stop": 1770717846905
       }
     ]
   },
   {
     "name": "TC_login_01",
     "status": "passed",
-    "duration": 14034,
+    "duration": 295071,
     "steps": [
       {
         "status": "passed",
@@ -208,17 +435,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Launch browser",
-                    "start": 1770713591898,
-                    "uuid": "915cdfd5-524d-4ee7-a057-d961d4640b96",
-                    "stop": 1770713592484
+                    "start": 1770717492507,
+                    "uuid": "764a1f48-3ca0-4489-b571-511b0a3409ca",
+                    "stop": 1770717492616
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"browser\"",
-                "start": 1770713591894,
-                "uuid": "d7dced1c-0c79-4ec6-a001-1a41febf52e2",
-                "stop": 1770713592484
+                "start": 1770717492504,
+                "uuid": "0ef013ef-9970-4175-a796-8a84719fa85c",
+                "stop": 1770717492616
               },
               {
                 "status": "passed",
@@ -233,17 +460,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Create context",
-                    "start": 1770713592489,
-                    "uuid": "1b9d9d5a-4da5-4937-b672-89ab88dfc2cd",
-                    "stop": 1770713592544
+                    "start": 1770717492622,
+                    "uuid": "c0d82532-c1a6-4f50-840e-bc94d91633da",
+                    "stop": 1770717492632
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"context\"",
-                "start": 1770713592487,
-                "uuid": "2194a8ab-a766-4054-8d3d-88cd4176ae94",
-                "stop": 1770713592549
+                "start": 1770717492619,
+                "uuid": "6277b0cd-362b-4991-a047-ad9ff8feb989",
+                "stop": 1770717492636
               },
               {
                 "status": "passed",
@@ -258,17 +485,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Create page",
-                    "start": 1770713592551,
-                    "uuid": "a4c7da2d-de53-4389-a916-1c2577ada46f",
-                    "stop": 1770713592798
+                    "start": 1770717492638,
+                    "uuid": "ce098d30-3ea3-4e87-9eb7-65ededf72261",
+                    "stop": 1770717492703
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"page\"",
-                "start": 1770713592550,
-                "uuid": "2ced042f-549d-4ce0-aee6-961fb996cc0b",
-                "stop": 1770713592799
+                "start": 1770717492636,
+                "uuid": "4ee24f83-daa3-46c5-8cc6-871210ed11f3",
+                "stop": 1770717492703
               },
               {
                 "status": "passed",
@@ -278,25 +505,25 @@
                 "attachments": [],
                 "parameters": [],
                 "name": "Navigate to \"/\"",
-                "start": 1770713592801,
-                "uuid": "143eb503-161b-478d-97d0-cee40368b7c2",
-                "stop": 1770713597565
+                "start": 1770717492705,
+                "uuid": "2fb83816-a806-4a74-9e26-513e589f2837",
+                "stop": 1770717615318
               }
             ],
             "attachments": [],
             "parameters": [],
             "name": "Invoke URL",
-            "start": 1770713591881,
-            "uuid": "f7d19d55-6392-421e-a257-94dcd5e8913a",
-            "stop": 1770713597565
+            "start": 1770717492492,
+            "uuid": "a3fcb348-ab58-46d9-81a1-f15d8d79c962",
+            "stop": 1770717615319
           }
         ],
         "attachments": [],
         "parameters": [],
         "name": "Before Hooks",
-        "start": 1770713591880,
-        "uuid": "735b8e15-1369-4729-8381-cc8f85f7a0f7",
-        "stop": 1770713597566
+        "start": 1770717492491,
+        "uuid": "5b157d8d-36c3-42ae-bcb2-ba31e5c9854f",
+        "stop": 1770717615319
       },
       {
         "status": "passed",
@@ -305,10 +532,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713597589,
+        "start": 1770717615348,
         "name": "Fill \"Admin\" getByPlaceholder('Username')",
-        "uuid": "dfc4c934-e651-4606-90d5-f7fe69440514",
-        "stop": 1770713599982
+        "uuid": "0da4fb06-692e-4f49-998c-2ba4f771bf66",
+        "stop": 1770717663649
       },
       {
         "status": "passed",
@@ -317,10 +544,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713599985,
+        "start": 1770717663651,
         "name": "Fill \"admin123\" getByPlaceholder('Password')",
-        "uuid": "925c3e09-32ef-42d1-a4c5-ca55932c18ea",
-        "stop": 1770713600009
+        "uuid": "a27c6725-0280-46f6-8c24-3f5662edcae5",
+        "stop": 1770717663705
       },
       {
         "status": "passed",
@@ -329,10 +556,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713600010,
+        "start": 1770717663708,
         "name": "Click getByRole('button', { name: ' Login ' })",
-        "uuid": "65de875e-9801-41ab-b245-cfd03534df8b",
-        "stop": 1770713605907
+        "uuid": "cfe63037-02a9-44fb-a2c2-19105f773810",
+        "stop": 1770717784789
       },
       {
         "status": "passed",
@@ -347,9 +574,9 @@
             "attachments": [],
             "parameters": [],
             "name": "Fixture \"page\"",
-            "start": 1770713605909,
-            "uuid": "0d995177-34bd-4c76-a9cc-4d43366c1f43",
-            "stop": 1770713605909
+            "start": 1770717784791,
+            "uuid": "1993e478-a443-432f-b6b8-06964eb2a6bb",
+            "stop": 1770717784791
           },
           {
             "status": "passed",
@@ -364,32 +591,32 @@
                 "attachments": [],
                 "parameters": [],
                 "name": "Close context",
-                "start": 1770713606254,
-                "uuid": "c6142186-7e58-40ae-b49e-661a1e294186",
-                "stop": 1770713606521
+                "start": 1770717785104,
+                "uuid": "95b22d60-8bf8-4c0b-be72-4eaf4f1d4169",
+                "stop": 1770717787690
               }
             ],
             "attachments": [],
             "parameters": [],
             "name": "Fixture \"context\"",
-            "start": 1770713605909,
-            "uuid": "15317279-9480-4aa7-8bc8-923c0b241a81",
-            "stop": 1770713606521
+            "start": 1770717784791,
+            "uuid": "cb9966c2-5e3a-457d-af90-a1ca4bb94218",
+            "stop": 1770717787690
           }
         ],
         "attachments": [],
         "parameters": [],
         "name": "After Hooks",
-        "start": 1770713605907,
-        "uuid": "3a4184af-babc-4952-99c5-91f7444342d6",
-        "stop": 1770713606527
+        "start": 1770717784789,
+        "uuid": "dbaf368f-c4e3-4ad8-baeb-311860343c73",
+        "stop": 1770717787696
       }
     ]
   },
   {
-    "name": "TC_login_03",
+    "name": "TC_login_02",
     "status": "passed",
-    "duration": 3785,
+    "duration": 35894,
     "steps": [
       {
         "status": "passed",
@@ -414,17 +641,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Create context",
-                    "start": 1770713610353,
-                    "uuid": "90cfea4f-ba2d-43ee-9af3-35f550df0415",
-                    "stop": 1770713610357
+                    "start": 1770717787707,
+                    "uuid": "2392967e-f75a-4bcb-aecc-936a8297d5b8",
+                    "stop": 1770717787714
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"context\"",
-                "start": 1770713610352,
-                "uuid": "26719c6c-32ba-4094-8a0f-dfb729596bf7",
-                "stop": 1770713610358
+                "start": 1770717787706,
+                "uuid": "e49920a7-b5f9-4ce1-9761-00ec5ed0d87e",
+                "stop": 1770717787715
               },
               {
                 "status": "passed",
@@ -439,17 +666,17 @@
                     "attachments": [],
                     "parameters": [],
                     "name": "Create page",
-                    "start": 1770713610359,
-                    "uuid": "ce93f468-54be-4743-aa11-aefaf2c9f650",
-                    "stop": 1770713610408
+                    "start": 1770717787717,
+                    "uuid": "406f1957-1a47-4b3c-b89f-e2593d016cbf",
+                    "stop": 1770717787766
                   }
                 ],
                 "attachments": [],
                 "parameters": [],
                 "name": "Fixture \"page\"",
-                "start": 1770713610358,
-                "uuid": "dc6a2e6d-eb3c-4aea-9d79-d8ee3d52af84",
-                "stop": 1770713610409
+                "start": 1770717787716,
+                "uuid": "b54e5b9c-8afa-4dbe-862b-8e63726f91f4",
+                "stop": 1770717787767
               },
               {
                 "status": "passed",
@@ -459,25 +686,25 @@
                 "attachments": [],
                 "parameters": [],
                 "name": "Navigate to \"/\"",
-                "start": 1770713610410,
-                "uuid": "0dae8ec6-e37e-4f1a-8662-10140d2c6ea9",
-                "stop": 1770713613095
+                "start": 1770717787768,
+                "uuid": "32b8103d-1b39-4036-a631-526b5e4286a3",
+                "stop": 1770717808931
               }
             ],
             "attachments": [],
             "parameters": [],
             "name": "Invoke URL",
-            "start": 1770713610347,
-            "uuid": "e947cfd0-835c-4801-a3c4-f618f77f9c36",
-            "stop": 1770713613095
+            "start": 1770717787699,
+            "uuid": "5bc5dfc2-6020-4ca6-b1d5-b82f3750cb86",
+            "stop": 1770717808931
           }
         ],
         "attachments": [],
         "parameters": [],
         "name": "Before Hooks",
-        "start": 1770713610346,
-        "uuid": "f28ca7f1-6dfd-459c-864a-e925b93d619a",
-        "stop": 1770713613095
+        "start": 1770717787699,
+        "uuid": "d1ff962d-6310-40c5-a2c4-e58fbc8ccff5",
+        "stop": 1770717808931
       },
       {
         "status": "passed",
@@ -486,10 +713,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713613103,
-        "name": "Fill \"Admin\" getByPlaceholder('Username')",
-        "uuid": "bfc19d47-82e6-496d-84b7-c28da6831d64",
-        "stop": 1770713613923
+        "start": 1770717808943,
+        "name": "Fill \"User\" getByPlaceholder('Username')",
+        "uuid": "0fa6a0c7-262d-49a2-8186-f7a65410d43a",
+        "stop": 1770717818303
       },
       {
         "status": "passed",
@@ -498,10 +725,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713613924,
-        "name": "Fill \"User123\" getByPlaceholder('Password')",
-        "uuid": "d77b1728-b881-4752-9b4a-79f64eabed07",
-        "stop": 1770713613935
+        "start": 1770717818304,
+        "name": "Fill \"Admin123\" getByPlaceholder('Password')",
+        "uuid": "0dca1567-6ec1-48bd-a7bd-79cf8d7d1d0c",
+        "stop": 1770717818318
       },
       {
         "status": "passed",
@@ -510,10 +737,10 @@
         "steps": [],
         "attachments": [],
         "parameters": [],
-        "start": 1770713613937,
+        "start": 1770717818319,
         "name": "Click getByRole('button', { name: ' Login ' })",
-        "uuid": "f1d33577-8533-406c-82ff-847b6fa3b44c",
-        "stop": 1770713613973
+        "uuid": "e78b89ee-c1db-4f7b-89a9-4950fd57695e",
+        "stop": 1770717818369
       },
       {
         "status": "passed",
@@ -528,9 +755,9 @@
             "attachments": [],
             "parameters": [],
             "name": "Fixture \"page\"",
-            "start": 1770713613974,
-            "uuid": "94e0fb05-cc59-43ae-89a8-0c8a100b8726",
-            "stop": 1770713613974
+            "start": 1770717818370,
+            "uuid": "0e067124-6282-44fd-a9c4-1eaa794125ac",
+            "stop": 1770717818370
           },
           {
             "status": "passed",
@@ -545,25 +772,25 @@
                 "attachments": [],
                 "parameters": [],
                 "name": "Close context",
-                "start": 1770713614042,
-                "uuid": "09009099-0c54-4618-b6f0-e5eb4bc61c38",
-                "stop": 1770713614139
+                "start": 1770717823377,
+                "uuid": "3333616f-6705-49dd-a2ec-7835e033525d",
+                "stop": 1770717823602
               }
             ],
             "attachments": [],
             "parameters": [],
             "name": "Fixture \"context\"",
-            "start": 1770713613974,
-            "uuid": "7b93961d-35b7-4f1c-b0eb-f16f8233c807",
-            "stop": 1770713614139
+            "start": 1770717818371,
+            "uuid": "c8a75fc3-2b72-4e3f-965f-577336e311ff",
+            "stop": 1770717823602
           }
         ],
         "attachments": [],
         "parameters": [],
         "name": "After Hooks",
-        "start": 1770713613974,
-        "uuid": "369b3c1c-ba2c-419b-a46d-9014f4472830",
-        "stop": 1770713614143
+        "start": 1770717818370,
+        "uuid": "ae2d3aa4-1448-4079-b53f-9b210744dbbf",
+        "stop": 1770717823608
       }
     ]
   }
