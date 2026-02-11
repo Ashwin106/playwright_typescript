@@ -21,6 +21,9 @@ test('TC_login_02',async({page},testinfo)=>{
    await loginPage.login(data.username,data.password)
    
 }); 
+    
+    
+    
 
 test('TC_login_03',async({page},testinfo)=>{
     const loginPage=new LoginPage(page);
