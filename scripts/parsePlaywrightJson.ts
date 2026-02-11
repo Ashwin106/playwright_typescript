@@ -1,17 +1,20 @@
 import fs from 'fs';
 import path from 'path';
 
-const INPUT = 'test-results.json';
-const OUTPUT_DIR = 'dashboard/data';
+const INPUT_FILE = 'test-results.json';
+const OUTPUT_DIR = path.join('dashboard', 'data');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'results.json');
 
-if (!fs.existsSync(INPUT)) {
-  throw new Error('❌ test-results.json not found');
+console.log('👉 Looking for:', INPUT_FILE);
+
+if (!fs.existsSync(INPUT_FILE)) {
+  console.error('❌ test-results.json NOT FOUND');
+  process.exit(1);
 }
 
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-const raw = JSON.parse(fs.readFileSync(INPUT, 'utf-8'));
+const raw = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf-8'));
 
 const results: { name: string; status: string; duration: number }[] = [];
 
@@ -33,4 +36,4 @@ raw.suites.forEach((fileSuite: any) => {
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2));
 
-console.log(`✅ Generated ${results.length} dashboard results`);
+console.log(`✅ results.json CREATED at ${OUTPUT_FILE}`);

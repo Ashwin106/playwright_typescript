@@ -1,0 +1,17 @@
+[
+  {
+    "name": "TC_login_01",
+    "status": "passed",
+    "duration": 10781
+  },
+  {
+    "name": "TC_login_02",
+    "status": "passed",
+    "duration": 10833
+  },
+  {
+    "name": "TC_login_03",
+    "status": "passed",
+    "duration": 10635
+  }
+]
