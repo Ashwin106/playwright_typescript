@@ -1,4 +1,4 @@
-fetch('./data/suites.json')
+fetch('./data/results.json')
   .then(res => res.json())
   .then(data => {
     const rows = document.getElementById('rows');
