@@ -1,34 +1,26 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Allure Report</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="plugin/screen-diff/styles.css">
+  <meta charset="UTF-8" />
+  <title>Playwright Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div id="alert"></div>
-    <div id="content">
-        <span class="spinner">
-            <span class="spinner__circle"></span>
-        </span>
-    </div>
-    <div id="popup"></div>
-    <script src="app.js"></script>
-    <script src="plugin/behaviors/index.js"></script>
-    <script src="plugin/packages/index.js"></script>
-    <script src="plugin/screen-diff/index.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVWC4GKEYS"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-FVWC4GKEYS', {
-          'allureVersion': '2.36.0',
-          'reportUuid': 'a4ba4d0f-4700-40ff-b784-8e44c1d670db',
-          'single_file': false
-        });
-    </script>
+
+<h1>Playwright Execution Dashboard</h1>
+<p id="summary"></p>
+
+<table border="1" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Test Name</th>
+      <th>Status</th>
+      <th>Duration (ms)</th>
+    </tr>
+  </thead>
+  <tbody id="rows"></tbody>
+</table>
+
+<script src="app.js"></script>
 </body>
 </html>
