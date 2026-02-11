@@ -3,10 +3,12 @@ import LoginPage from "../pages/loginPage";
 import { config } from '../config';
 import { getDataFromExcel } from "../utils/excelReader";
 
-test.beforeEach("Invoke URL",async({page})=>{
-    await page.goto(config.baseUrl);
-})
+
 test.describe('LOGIN TESTS',()=>{
+
+    test.beforeEach("Invoke URL",async({page})=>{
+    await page.goto(config.baseUrl);
+});
     test('TC_login_01',async({page},testinfo)=>{
     const loginPage=new LoginPage(page);
     const testData=getDataFromExcel('Sheet1',testinfo.title)

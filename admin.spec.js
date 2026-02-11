@@ -1,10 +1,10 @@
 import{test,expect} from '@playwright/test';
 import LoginPage from "./pages/loginPage";
 import AdminPage from "./pages/adminPage";
-test.beforeEach('Login to application',async({page})=>{
-    const loginPage=new LoginPage(page);
-       await loginPage.login()
-})
+// test.beforeEach('Login to application',async({page})=>{
+//     const loginPage=new LoginPage(page);
+//        await loginPage.login()
+// })
 
 test('User creation',async({page})=>{
     const adminPage=new AdminPage(page);
