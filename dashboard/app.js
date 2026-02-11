@@ -14,6 +14,7 @@ fetch('./data/results.json')
         <td>${t.name}</td>
         <td>${t.status}</td>
         <td>${t.duration}</td>
+        <td>${t.startTime}</td>
       `;
       rows.appendChild(tr);
     });
