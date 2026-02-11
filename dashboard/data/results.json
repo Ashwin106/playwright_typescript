@@ -2,16 +2,19 @@
   {
     "name": "TC_login_01",
     "status": "passed",
-    "duration": 10781
+    "duration": 8298,
+    "startTime": "2026-02-11T14:07:02.201Z"
   },
   {
     "name": "TC_login_02",
     "status": "passed",
-    "duration": 10833
+    "duration": 7022,
+    "startTime": "2026-02-11T14:07:10.825Z"
   },
   {
     "name": "TC_login_03",
     "status": "passed",
-    "duration": 10635
+    "duration": 8445,
+    "startTime": "2026-02-11T14:07:17.862Z"
   }
 ]

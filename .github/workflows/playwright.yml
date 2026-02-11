@@ -30,7 +30,8 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
 
-    - name: Parse Allure json
+    - name: Parse playwright json
+      if: always()
       run:  npx ts-node --transpile-only scripts/parsePlaywrightJson.ts
     - name: Deploy to github pages
       if: always()

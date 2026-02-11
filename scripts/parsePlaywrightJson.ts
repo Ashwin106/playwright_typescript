@@ -16,17 +16,19 @@ fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
 const raw = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf-8'));
 
-const results: { name: string; status: string; duration: number }[] = [];
+const results: { name: string; status: string; duration: number; startTime:string }[] = [];
 
 raw.suites.forEach((fileSuite: any) => {
   fileSuite.suites.forEach((describeSuite: any) => {
     describeSuite.specs.forEach((spec: any) => {
       spec.tests.forEach((test: any) => {
-        test.results.forEach((r: any) => {
+          test.results.forEach((r: any) => {
+            
           results.push({
             name: spec.title,
             status: r.status,
-            duration: r.duration
+            duration: r.duration,
+            startTime: r.startTime
           });
         });
       });
