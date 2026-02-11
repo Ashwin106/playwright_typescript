@@ -20,10 +20,6 @@
         null
       ],
       [
-        "D:\\playwright typescript\\playwright_typescript\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
-        null
-      ],
-      [
         "json",
         {
           "outputFile": "test-results.json"
@@ -91,12 +87,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 21740,
+                      "duration": 9794,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-11T12:13:10.287Z",
+                      "startTime": "2026-02-11T12:26:47.563Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -125,12 +121,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 21890,
+                      "duration": 10981,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-11T12:13:32.389Z",
+                      "startTime": "2026-02-11T12:26:57.696Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -159,12 +155,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9709,
+                      "duration": 15125,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-11T12:13:54.297Z",
+                      "startTime": "2026-02-11T12:27:08.692Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -184,8 +180,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-11T12:13:08.978Z",
-    "duration": 55319.327999999994,
+    "startTime": "2026-02-11T12:26:46.358Z",
+    "duration": 39437.965,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,
