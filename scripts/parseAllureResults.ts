@@ -18,7 +18,7 @@ const results = files.map(file => {
     name: json.name,
     status: json.status,
     duration: json.stop && json.start ? json.stop - json.start : 0,
-    steps: json.steps || []
+    // steps: json.steps || []
   };
 });
 
