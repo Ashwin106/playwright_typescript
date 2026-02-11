@@ -2,16 +2,21 @@
   {
     "name": "TC_login_01",
     "status": "passed",
-    "duration": 5225
+    "duration": 19225
   },
   {
     "name": "TC_login_02",
     "status": "passed",
-    "duration": 2511
+    "duration": 10101
+  },
+  {
+    "name": "TC_login_03",
+    "status": "failed",
+    "duration": 3451
   },
   {
     "name": "TC_login_03",
     "status": "passed",
-    "duration": 2730
+    "duration": 2918
   }
 ]
