@@ -2,19 +2,127 @@
   {
     "name": "TC_login_01",
     "status": "passed",
-    "duration": 6675,
-    "startTime": "2026-02-11T16:23:25.370Z"
+    "duration": 16670,
+    "startTime": "2026-02-12T05:23:15.610Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 9367,
+        "status": "passed"
+      },
+      {
+        "title": "Verify successful login",
+        "duration": 1882,
+        "status": "passed"
+      }
+    ]
   },
   {
     "name": "TC_login_02",
-    "status": "passed",
-    "duration": 3458,
-    "startTime": "2026-02-11T16:23:36.673Z"
+    "status": "failed",
+    "duration": 5903,
+    "startTime": "2026-02-12T05:23:36.370Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 3163,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 48,
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "name": "TC_login_02",
+    "status": "failed",
+    "duration": 5134,
+    "startTime": "2026-02-12T05:23:43.239Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 1393,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 10,
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "name": "TC_login_02",
+    "status": "failed",
+    "duration": 9047,
+    "startTime": "2026-02-12T05:23:49.459Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 2463,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 3229,
+        "status": "failed"
+      }
+    ]
   },
   {
     "name": "TC_login_03",
-    "status": "passed",
-    "duration": 3600,
-    "startTime": "2026-02-11T16:23:40.154Z"
+    "status": "failed",
+    "duration": 6299,
+    "startTime": "2026-02-12T05:23:59.560Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 4148,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 50,
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "name": "TC_login_03",
+    "status": "failed",
+    "duration": 7909,
+    "startTime": "2026-02-12T05:24:06.925Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 1474,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 3577,
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "name": "TC_login_03",
+    "status": "failed",
+    "duration": 7907,
+    "startTime": "2026-02-12T05:24:15.880Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 1909,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 15,
+        "status": "failed"
+      }
+    ]
   }
 ]
