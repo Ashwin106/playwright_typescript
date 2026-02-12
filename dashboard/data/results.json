@@ -2,19 +2,55 @@
   {
     "name": "TC_login_01",
     "status": "passed",
-    "duration": 8298,
-    "startTime": "2026-02-11T14:07:02.201Z"
+    "duration": 20492,
+    "startTime": "2026-02-12T05:16:14.829Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 9258,
+        "status": "passed"
+      },
+      {
+        "title": "Verify successful login",
+        "duration": 3274,
+        "status": "passed"
+      }
+    ]
   },
   {
     "name": "TC_login_02",
-    "status": "passed",
-    "duration": 7022,
-    "startTime": "2026-02-11T14:07:10.825Z"
+    "status": "failed",
+    "duration": 14740,
+    "startTime": "2026-02-12T05:16:35.673Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 6928,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 63,
+        "status": "failed"
+      }
+    ]
   },
   {
     "name": "TC_login_03",
-    "status": "passed",
-    "duration": 8445,
-    "startTime": "2026-02-11T14:07:17.862Z"
+    "status": "failed",
+    "duration": 19606,
+    "startTime": "2026-02-12T05:16:52.077Z",
+    "steps": [
+      {
+        "title": "Login with valid credentials",
+        "duration": 12346,
+        "status": "passed"
+      },
+      {
+        "title": "Verify error message for invalid login",
+        "duration": 39,
+        "status": "failed"
+      }
+    ]
   }
 ]
